@@ -80,7 +80,7 @@ Pizza businesses generate large volumes of sales data daily. The goal of this pr
 
 ## Dashboard Preview
 
-![Dashboard](%20Pizza%20Sales%20Dashboard.png)
+![Dashboard](./Pizza%20Sales%20Dashboard.png)
 
 ---
 
