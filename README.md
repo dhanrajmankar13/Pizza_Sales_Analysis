@@ -1,110 +1,114 @@
-🚀 SQL Project Showcase: Pizza Sales Analysis 🍕
+# 🍕 Pizza Sales Performance Dashboard (Power BI + MySQL)
 
-I'm excited to share a project I recently completed where I analyzed Pizza Hut sales data using SQL to uncover valuable business insights and strengthen my data analytics skills.
+## Project Overview
 
-As someone passionate about data analytics, I wanted to work on a real-world dataset that could help answer important business questions. Pizza sales data provided a great opportunity to explore customer behavior, revenue trends, product performance, and operational insights.
+This project analyzes pizza sales data using **MySQL** and **Power BI** to uncover sales trends, customer ordering behavior, and product performance.
 
-📌 Project Objective
+The dashboard provides interactive insights into revenue, order patterns, pizza categories, and pizza sizes to support business decision-making.
 
-The goal of this project was to transform raw sales data into meaningful insights that could help a business understand:
+---
 
-• Customer ordering patterns
-• Revenue generation
-• Best-selling products
-• Peak business hours
-• Product category performance
-• Sales trends over time
+## Tools Used
 
-🛠️ Database Structure
+* MySQL
+* Power BI
+* Excel/CSV Dataset
 
-The analysis was performed using multiple related tables, including:
+---
 
-🔹 Orders
-🔹 Order Details
-🔹 Pizzas
-🔹 Pizza Types
+## Business Problem
 
-By joining these tables, I was able to perform both basic and advanced analyses to answer business-focused questions.
+Pizza businesses generate large volumes of sales data daily. The goal of this project is to:
 
-📊 Key Business Questions Answered
+* Track revenue performance
+* Analyze customer ordering patterns
+* Identify best and worst-selling pizzas
+* Understand category and size preferences
+* Support data-driven business decisions
 
-✅ How many total orders were placed?
+---
 
-Calculated the total number of customer orders to understand overall business activity.
+## Dashboard KPIs
 
-✅ What was the total revenue generated?
+| KPI                  | Value    |
+| -------------------- | -------- |
+| Total Revenue        | $817.86K |
+| Total Orders         | 21,350   |
+| Average Order Value  | $38.31   |
+| Total Pizzas Sold    | 49,574   |
+| Avg Pizzas Per Order | 2.32     |
 
-Used sales quantity and pizza prices to calculate total revenue generated from all orders.
+---
 
-✅ Which pizza was the most expensive?
+## Key Insights
 
-Identified premium products in the menu lineup.
+### Revenue Analysis
 
-✅ What pizza size was ordered most frequently?
+* Total Revenue generated: $817.86K
+* Highest monthly revenue observed in July.
+* Revenue decline observed during September and October.
 
-Analyzed customer preferences based on pizza sizes.
+### Customer Ordering Behavior
 
-✅ Which pizza types were the most popular?
+* Friday recorded the highest number of orders.
+* Average order value is $38.31.
 
-Ranked pizza varieties based on total quantity sold.
+### Product Performance
 
-✅ Which pizza categories performed best?
+* Top Pizza by Revenue:
 
-Compared categories such as Classic, Chicken, Veggie, and Supreme to identify customer favorites.
+   The Thai Chicken Pizza
 
-✅ What are the busiest hours of the day?
+* Worst Pizza by Revenue:
 
-Analyzed order timestamps to discover peak ordering periods.
+   The Brie Carre Pizza
 
-✅ What is the average number of pizzas ordered per day?
+* Top Pizza by Quantity Sold:
 
-Measured daily demand and customer purchasing behavior.
+   The Classic Deluxe Pizza
 
-✅ Which pizzas generated the highest revenue?
+* Lowest Pizza by Quantity Sold:
 
-Identified products that contributed the most to overall sales.
+   The Brie Carre Pizza
 
-📈 Advanced Analysis Performed
+### Category Insights
 
-One of the most exciting parts of this project was implementing advanced SQL techniques.
+* Classic category contributes the highest share of sales.
+* Large size pizzas are the most preferred by customers.
 
-🔹 Revenue Contribution Analysis
+---
 
-Calculated the percentage contribution of each pizza category to total revenue, helping identify the most profitable segments.
+## Dashboard Preview
 
-🔹 Cumulative Revenue Analysis
+![Dashboard](%20Pizza%20Sales%20Dashboard.png)
 
-Used SQL Window Functions to track how revenue accumulated over time and observe overall business growth patterns.
+---
 
-🔹 Category-wise Top Revenue Generators
+## Skills Demonstrated
 
-Applied the RANK() Window Function to identify the top-performing pizzas within each category.
+* Data Cleaning
+* SQL Querying
+* Data Modeling
+* DAX Measures
+* Data Visualization
+* KPI Development
+* Business Insights Generation
 
-💡 SQL Concepts Applied
+---
 
-Throughout this project, I practiced and strengthened my understanding of:
+## Project Files
 
-✔️ Joins
-✔️ Aggregate Functions (SUM, AVG, COUNT)
-✔️ GROUP BY and ORDER BY
-✔️ Subqueries
-✔️ Window Functions
-✔️ Ranking Functions
-✔️ Revenue Analysis
-✔️ Business KPI Calculation
+* Power BI Dashboard (.pbix)
+* SQL Queries
+* Dataset
+* Dashboard Screenshot
 
-🎯 Key Takeaways
+---
 
-This project reinforced an important lesson:
+## Author
 
-Data is most valuable when it helps answer business questions.
+Dhanraj Mankar
 
-Beyond writing SQL queries, I focused on understanding the story behind the data and translating raw numbers into actionable insights.
+Aspiring Data Analyst | Power BI | SQL | Data Visualization
 
-Every project helps me improve my analytical thinking, problem-solving skills, and ability to work with real-world datasets.
-
-I look forward to building more projects in SQL, Power BI, Python, and Data Analytics.
-
-If you're learning SQL or working on analytics projects, I'd love to connect and exchange ideas!
-
-#SQL #DataAnalytics #DataAnalysis #MySQL #BusinessIntelligence #DataScience #DataAnalyst #PortfolioProject #LearningInPublic #Analytics #SQLProject #DataVisualization #CareerGrowth #OpenToWork
+---
